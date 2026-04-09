@@ -3,15 +3,37 @@ background:#000000!important;
 color:#e5d3a1!important;
 }
 
-#main, .container, .col-md-9, .col-md-3 {
+#main {
 background:#111111!important;
 border:1px solid #c9a34a!important;
-box-shadow:0 0 20px #c9a34a!important;
 }
 
-.navbar, .topbar, .navbar-default {
+.col-md-9, .col-md-3 {
+background:#111111!important;
+}
+
+.panel {
+background:#141414!important;
+border:1px solid #b8963f!important;
+}
+
+.panel-default > .panel-heading {
+background:#0a0a0a!important;
+color:#f5d06f!important;
+border-bottom:1px solid #c9a34a!important;
+}
+
+.navbar-default {
 background:#0a0a0a!important;
 border-bottom:1px solid #c9a34a!important;
+}
+
+.navbar-default .navbar-nav > li > a {
+color:#e6c15a!important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+color:#fff3b0!important;
 }
 
 .breadcrumb {
@@ -19,15 +41,9 @@ background:#0a0a0a!important;
 border:1px solid #c9a34a!important;
 }
 
-.panel, .boxcontainer {
-background:#141414!important;
-border:1px solid #b8963f!important;
-}
-
-h1,h2,h3,h4 {
+h1, h2, h3 {
 color:#f5d06f!important;
 letter-spacing:2px;
-text-transform:uppercase;
 }
 
 a {
@@ -35,6 +51,29 @@ color:#e6c15a!important;
 }
 
 a:hover {
+color:#fff3b0!important;
+}
+
+.btn, .btn-default {
+background:#c9a34a!important;
+color:#111111!important;
+border:none!important;
+}
+
+.table {
+background:#111111!important;
+color:#e5d3a1!important;
+}
+
+img:hover {
+box-shadow:0 0 25px #f5d06f!important;
+}
+
+h1:after {
+content:" ✦ MUFARO THE ETERNAL ✦";
+display:block;
+color:#c9a34a;
+}a:hover {
 color:#fff3b0!important;
 }
 
