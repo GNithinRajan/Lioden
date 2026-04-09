@@ -1,26 +1,32 @@
 body {
 background: url('https://i.ibb.co/7QpKsCX/dark-gold-texture.jpg') center center fixed;
-background-size: 100%;
+background-size:100%;
 color:#e5d3a1;
 }
 
 .container.main {
 background: rgba(10,10,10,0.85);
+border:none;
+box-shadow:none;
+border-radius:0px;
 }
 
 .col-md-9 {
 background:none;
+border-right:none;
 }
 
 .topbar {
 background:#0a0a0a;
-border:3px solid #c9a34a!important;
+border:2px solid #c9a34a!important;
 color:#e5d3a1;
+border-radius:5px;
 }
 
 .navbar {
 background:#0a0a0a;
-border-bottom:3px solid #c9a34a;
+border-bottom:2px solid #c9a34a;
+border-radius:5px;
 }
 
 .navbar li a {
@@ -35,6 +41,173 @@ color:#fff3b0!important;
 .breadcrumb {
 background:#111111!important;
 border:2px solid #c9a34a;
+border-radius:5px;
+}
+
+.breadcrumb .active {
+color:#e5d3a1;
+}
+
+.breadcrumb::after {
+content:"Mufaro the Eternal";
+color:#c9a34a;
+position:absolute;
+right:13%;
+z-index:100;
+}
+
+input.floatright {
+background:#0a0a0a!important;
+color:#e5d3a1!important;
+border:none;
+}
+
+button.button {
+background:#0a0a0a;
+border:2px solid #c9a34a!important;
+color:#e5d3a1!important;
+}
+
+.alert {
+background:#141414!important;
+border:2px solid #c9a34a;
+color:#e5d3a1;
+}
+
+h1 {
+color:#f5d06f;
+font-size:90px;
+text-align:center;
+}
+
+h1:after {
+content:" ✦ MUFARO THE ETERNAL ✦";
+display:block;
+font-size:16px;
+color:#c9a34a;
+letter-spacing:4px;
+}
+
+h2 {
+color:#f5d06f;
+text-align:center;
+}
+
+h3 {
+color:#f5d06f!important;
+}
+
+.sidebar h3 {
+color:#f5d06f!important;
+}
+
+.panel {
+background:#141414!important;
+border:2px solid #c9a34a!important;
+color:#e5d3a1!important;
+border-radius:5px;
+}
+
+.progress {
+background:#1a1a1a;
+}
+
+.progress-bar {
+background:#c9a34a;
+}
+
+.s-chat-message:nth-child(even) {
+background:#141414!important;
+color:#e5d3a1!important;
+border:2px solid #c9a34a!important;
+}
+
+.s-chat-message:nth-child(odd) {
+background:#1a1a1a!important;
+color:#e5d3a1!important;
+border:2px solid #c9a34a!important;
+}
+
+.s-chat-message__pinned {
+background:#0a0a0a!important;
+color:#e5d3a1!important;
+border:2px solid #c9a34a!important;
+}
+
+.table {
+background:#111111;
+border:2px solid #c9a34a!important;
+}
+
+.top, .bottom, th {
+background:#0a0a0a!important;
+color:#f5d06f!important;
+}
+
+.inner-table .left {
+background:#1a1a1a!important;
+}
+
+.inner-table .right {
+background:#1a1a1a!important;
+}
+
+input, select, textarea {
+background:#111111!important;
+color:#e5d3a1!important;
+border:none;
+}
+
+.item-header {
+background:#0a0a0a!important;
+color:#e5d3a1!important;
+}
+
+.item {
+background:#141414!important;
+}
+
+a:link, a:visited {
+color:#e6c15a!important;
+}
+
+a:hover {
+color:#fff3b0!important;
+text-shadow:0 0 8px gold;
+}
+
+.boxcontainer {
+background:none;
+display:flex;
+justify-content:center;
+}
+
+.smallbox, .mediumbox, .largebox {
+background:#0a0a0a;
+color:#e5d3a1;
+border:2px solid #c9a34a;
+margin:10px;
+}
+
+::-webkit-scrollbar {
+width:10px;
+}
+
+::-webkit-scrollbar-track {
+background:#111111;
+}
+
+::-webkit-scrollbar-thumb {
+background:#c9a34a;
+}
+
+div#lion_image {
+opacity:1;
+}
+
+table#player img {
+opacity:1;
+}border:2px solid #c9a34a;
 }
 
 .panel {
