@@ -1,0 +1,46 @@
+body {
+    background: #0a0a0a;
+    color: #e5d3a1;
+    font-family: Georgia, serif;
+}
+
+.container.main {
+    background: rgba(10, 10, 10, 0.9);
+    border: 1px solid #c9a34a;
+    box-shadow: 0 0 25px rgba(201, 163, 74, 0.25);
+    border-radius: 12px;
+}
+
+h1, h2, h3 {
+    color: #f5d06f;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(245, 208, 111, 0.5);
+}
+
+a {
+    color: #e6c15a;
+}
+
+a:hover {
+    color: #fff3b0;
+    text-shadow: 0 0 8px gold;
+}
+
+.boxcontainer, .panel {
+    background: #141414;
+    border: 1px solid #b8963f;
+    border-radius: 10px;
+}
+
+button, .btn {
+    background: linear-gradient(145deg, #c9a34a, #8a6b2c);
+    color: #111;
+}
+
+h1::after {
+    content: " ✦ Eternal Sovereignty ✦";
+    font-size: 14px;
+    display: block;
+    color: #c9a34a;
+}
