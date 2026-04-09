@@ -1,40 +1,61 @@
 body {
-    background: #0a0a0a;
-    color: #e5d3a1;
-    font-family: Georgia, serif;
+    background: #000000 !important;
+    color: #e5d3a1 !important;
 }
 
-.container.main {
-    background: rgba(10, 10, 10, 0.9);
-    border: 1px solid #c9a34a;
-    box-shadow: 0 0 25px rgba(201, 163, 74, 0.25);
-    border-radius: 12px;
+/* Main content area */
+.container, .content, .main {
+    background: #111111 !important;
+    border: 1px solid #c9a34a !important;
+    box-shadow: 0 0 30px rgba(201,163,74,0.4) !important;
 }
 
-h1, h2, h3 {
-    color: #f5d06f;
+/* All panels/boxes */
+div {
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #f5d06f !important;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 0 0 10px rgba(245, 208, 111, 0.5);
 }
 
+/* Links */
 a {
-    color: #e6c15a;
+    color: #e6c15a !important;
 }
 
 a:hover {
-    color: #fff3b0;
-    text-shadow: 0 0 8px gold;
+    color: #fff3b0 !important;
+    text-shadow: 0 0 10px gold;
 }
 
-.boxcontainer, .panel {
-    background: #141414;
-    border: 1px solid #b8963f;
-    border-radius: 10px;
+/* Navigation bar */
+.navbar {
+    background: #0a0a0a !important;
+    border-bottom: 1px solid #c9a34a !important;
 }
 
+/* Buttons */
 button, .btn {
-    background: linear-gradient(145deg, #c9a34a, #8a6b2c);
+    background: linear-gradient(145deg, #c9a34a, #8a6b2c) !important;
+    color: #111 !important;
+}
+
+/* Images glow */
+img:hover {
+    box-shadow: 0 0 25px rgba(245,208,111,0.6);
+}
+
+/* Title effect */
+h1::after {
+    content: " ✦ MUFARO THE ETERNAL ✦";
+    display: block;
+    font-size: 14px;
+    color: #c9a34a;
+}    background: linear-gradient(145deg, #c9a34a, #8a6b2c);
     color: #111;
 }
 
