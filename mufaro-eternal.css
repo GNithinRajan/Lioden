@@ -1,40 +1,112 @@
 body {
-background:#000000!important;
-color:#e5d3a1!important;
+background: url('https://i.ibb.co/7QpKsCX/dark-gold-texture.jpg') center center fixed;
+background-size: 100%;
+color:#e5d3a1;
 }
 
-#main {
-background:#111111!important;
-border:1px solid #c9a34a!important;
+.container.main {
+background: rgba(10,10,10,0.85);
 }
 
-.col-md-9, .col-md-3 {
+.col-md-9 {
+background:none;
+}
+
+.topbar {
+background:#0a0a0a;
+border:3px solid #c9a34a!important;
+color:#e5d3a1;
+}
+
+.navbar {
+background:#0a0a0a;
+border-bottom:3px solid #c9a34a;
+}
+
+.navbar li a {
+color:#e6c15a!important;
+}
+
+.navbar li a:hover {
+background:#1a1a1a!important;
+color:#fff3b0!important;
+}
+
+.breadcrumb {
 background:#111111!important;
+border:2px solid #c9a34a;
 }
 
 .panel {
 background:#141414!important;
-border:1px solid #b8963f!important;
+border:2px solid #b8963f!important;
+color:#e5d3a1!important;
 }
 
-.panel-default > .panel-heading {
+h1 {
+color:#f5d06f;
+font-size:90px;
+text-align:center;
+}
+
+h1:after {
+content:" ✦ MUFARO THE ETERNAL ✦";
+display:block;
+font-size:16px;
+color:#c9a34a;
+letter-spacing:4px;
+}
+
+h2 {
+color:#f5d06f;
+}
+
+h3 {
+color:#f5d06f!important;
+}
+
+.table {
+background:#111111;
+border:2px solid #c9a34a!important;
+}
+
+.top, .bottom, th {
 background:#0a0a0a!important;
 color:#f5d06f!important;
-border-bottom:1px solid #c9a34a!important;
 }
 
-.navbar-default {
-background:#0a0a0a!important;
-border-bottom:1px solid #c9a34a!important;
+.inner-table .left {
+background:#1a1a1a!important;
 }
 
-.navbar-default .navbar-nav > li > a {
+.inner-table .right {
+background:#1a1a1a!important;
+}
+
+input, select, textarea {
+background:#111111!important;
+color:#e5d3a1!important;
+}
+
+.btn, .button {
+background:#c9a34a!important;
+color:#111111!important;
+}
+
+.alert {
+background:#1a1a1a!important;
+border:2px solid #c9a34a;
+color:#e5d3a1;
+}
+
+a:link, a:visited {
 color:#e6c15a!important;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+a:hover {
 color:#fff3b0!important;
-}
+text-shadow:0 0 8px gold;
+}}
 
 .breadcrumb {
 background:#0a0a0a!important;
